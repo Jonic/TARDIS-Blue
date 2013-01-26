@@ -1,7 +1,9 @@
 @-moz-document domain('www.tumblr.com') {
 
 	body.logged_in,
-	#content {
+	body.dashboard_inbox #content,
+	body.dashboard_index #content,
+	body.is_dashboard #content {
 		background: #003d67 !important;
 	}
 

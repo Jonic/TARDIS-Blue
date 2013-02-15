@@ -8,7 +8,8 @@
 	body.dashboard_index #content,
 	body.dashboard_likes #content,
 	body.dashboard_post_queue #content,
-	body.is_dashboard #content {
+	body.is_dashboard #content,
+	body.tagged_display #content {
 		background: #003d67 !important;
 	}
 

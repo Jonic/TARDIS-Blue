@@ -1,10 +1,13 @@
 @-moz-document domain('www.tumblr.com') {
 
 	body.logged_in,
+	body.dashboard_drafts #content,
 	body.dashboard_submissions #content,
+	body.dashboard_followers #content,
 	body.dashboard_inbox #content,
 	body.dashboard_index #content,
 	body.dashboard_likes #content,
+	body.dashboard_post_queue #content,
 	body.is_dashboard #content {
 		background: #003d67 !important;
 	}
@@ -99,6 +102,19 @@
 	#dashboard_settings #header .selection_nipple,
 	#main_help #header .selection_nipple {
 		top: 4px !important;
+	}
+
+	.dashboard_options_form,
+	.no_posts_found {
+		background-color: #16476b !important;
+		border-color: #073453 !important;
+	}
+
+	#search_query {
+		border: 1px solid rgba(0, 0, 0, 0.25);
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
 	}
 
 }

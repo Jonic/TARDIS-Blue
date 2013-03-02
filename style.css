@@ -1,5 +1,9 @@
 @-moz-document domain('www.tumblr.com') {
 
+	body#dashboard_iframe {
+		background: transparent !important;
+	}
+
 	body.logged_in,
 	body.dashboard_drafts #content,
 	body.dashboard_submissions #content,

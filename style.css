@@ -1,9 +1,5 @@
 @-moz-document domain('www.tumblr.com') {
 
-	body#dashboard_iframe {
-		background: transparent !important;
-	}
-
 	body.logged_in,
 	body.dashboard_drafts #content,
 	body.dashboard_submissions #content,
@@ -15,6 +11,10 @@
 	body.is_dashboard #content,
 	body.tagged_display #content {
 		background: #003d67 !important;
+	}
+
+	body.dashboard_iframe {
+		background: transparent !important;
 	}
 
 	#dashboard_create_tumblelog #header .selection_nipple,
@@ -116,7 +116,7 @@
 	}
 
 	#search_query {
-		border: 1px solid rgba(0, 0, 0, 0.25);
+		border: 0;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;

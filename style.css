@@ -3,10 +3,10 @@
 	body.logged_in,
 	body.dashboard_drafts #content,
 	body.dashboard_submissions #content,
-	body.dashboard_followers #content,
-	body.dashboard_inbox #content,
+	body.dashboard_useraction_followers #content,
+	body.dashboard_messages_inbox #content,
 	body.dashboard_index #content,
-	body.dashboard_likes #content,
+	body.dashboard_posts_likes #content,
 	body.dashboard_post_queue #content,
 	body.is_dashboard #content,
 	body.tagged_display #content {

@@ -9,6 +9,7 @@
 	body.dashboard_posts_likes #content,
 	body.dashboard_post_queue #content,
 	body.is_dashboard #content,
+	body.notifications_index #content,
 	body.tagged_display #content {
 		background: #003d67 !important;
 	}

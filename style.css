@@ -1,6 +1,7 @@
 @-moz-document domain('www.tumblr.com') {
 
 	body.logged_in,
+	body.layout_standard #content,
 	body.dashboard_drafts #content,
 	body.dashboard_submissions #content,
 	body.dashboard_useraction_followers #content,

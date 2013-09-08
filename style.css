@@ -1,7 +1,6 @@
 @-moz-document domain('www.tumblr.com') {
 
 	body.logged_in,
-	body.layout_standard #content,
 	body.dashboard_drafts #content,
 	body.dashboard_submissions #content,
 	body.dashboard_useraction_followers #content,
@@ -122,6 +121,22 @@
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
+	}
+
+	.notifications_page .section.divider {
+		background: none;
+	}
+
+	#promo #map {
+		border: 0;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+		margin-left: 0;
+		overflow: hidden;
+	}
+
+	#promo .map_corner {
+		display: none;
 	}
 
 }

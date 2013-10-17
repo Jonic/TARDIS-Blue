@@ -139,4 +139,8 @@
 		display: none;
 	}
 
+	.search_form_row {
+    	background-color: rgba(0, 0, 0, .10);
+  	}
+
 }

@@ -25,16 +25,23 @@
   .dashboard_useraction_followers .l-content,
   .dashboard_useraction_followers .l-content .left_column,
   .dashboard_useraction_followers .l-content .right_column,
+  .tumblelog_mask_item,
+  .tagged_actions_display,
+  .tagged_actions_display .l-content,
+  .tagged_actions_display .l-content .left_column,
+  .tagged_actions_display .l-content .right_column,
   .tumblr_settings,
   .tumblr_settings .l-container .l-content,
   .tumblr_settings .l-container .l-content .right_column,
   .pages_logo_index,
-  .post_avatar {
-    background: #003d67 !important;
+  .post_avatar,
+  .post_avatar_link,
+  .search_results {
+    background-color: #003d67 !important;
   }
 
   .post_full .post_permalink {
-	border-color: #003d67 #003d67 transparent transparent !important;
+  border-color: #003d67 #003d67 transparent transparent !important;
   }
 
   .l-header-container,

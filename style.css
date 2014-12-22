@@ -8,6 +8,9 @@
   .dashboard_posts_likes,
   .dashboard_useraction_followers,
   .dashboard_useraction_following,
+  .discover,
+  .discover-controls-wrapper,
+  .l-container--flex .l-content,
   .l-header-container,
   .l-header-container--refresh,
   .activity_actions_index .l-content,
@@ -38,6 +41,11 @@
   .post_avatar_link,
   .search_results {
     background-color: #003d67 !important;
+  }
+
+  .discover-controls-wrapper {
+    border-bottom: 1px solid #7F9DB2 !important;
+    box-shadow: none !important;
   }
 
   .post_full .post_permalink {
@@ -71,6 +79,7 @@
     background: #0C456D !important;
   }
 
+  .discover-tumblelogs .info:before,
   .identity-refresh .controls_section.user_list li .follow_list_item_blog:before,
   .identity-refresh .radar .radar_footer .radar_avatar:before,
   .identity-refresh .radar .radar_footer .radar_avatar:hover:before {
@@ -80,10 +89,14 @@
     border-right: 5px solid #003d67 !important;
   }
 
+  .discover-tumblelogs li:hover,
   .identity-refresh .controls_section.user_list li:hover .follow_list_item_blog:before {
     background-color: rgba(12, 69, 109, 0) !important;
     background-image: -webkit-linear-gradient(left, rgba(12, 69, 109, 0), #0C456D) !important;
     background-image: linear-gradient(to right, rgba(12, 69, 109, 0), #0C456D) !important;
+  }
+
+  .identity-refresh .controls_section.user_list li:hover .follow_list_item_blog:before {
     border-right: 5px solid #0C456D !important;
   }
 

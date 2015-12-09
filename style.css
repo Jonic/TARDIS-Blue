@@ -132,4 +132,8 @@
     display: none !important;
   }
 
+  .sponsored_post {
+    display: none !important;
+  }
+
 }

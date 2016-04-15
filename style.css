@@ -1,44 +1,44 @@
 @-moz-document domain('www.tumblr.com') {
 
   .activity_actions_index,
+  .activity_actions_index .l-content,
+  .activity_actions_index .l-content .left_column,
+  .activity_actions_index .l-content .right_column,
   .corp_page,
   .dashboard_index,
+  .dashboard_index .l-content,
+  .dashboard_index .l-content .left_column,
+  .dashboard_index .l-content .right_column,
   .dashboard_lookup_lookup_contacts,
   .dashboard_messages_inbox,
+  .dashboard_messages_inbox .l-content,
+  .dashboard_messages_inbox .l-content .left_column,
+  .dashboard_messages_inbox .l-content .right_column,
   .dashboard_posts_likes,
+  .dashboard_posts_likes .l-content,
+  .dashboard_posts_likes .l-content .left_column,
+  .dashboard_posts_likes .l-content .right_column,
   .dashboard_useraction_followers,
+  .dashboard_useraction_followers .l-content,
+  .dashboard_useraction_followers .l-content .left_column,
+  .dashboard_useraction_followers .l-content .right_column,
   .dashboard_useraction_following,
   .discover,
   .discover-controls-wrapper,
   .l-container--flex .l-content,
   .l-header-container,
   .l-header-container--refresh,
-  .activity_actions_index .l-content,
-  .activity_actions_index .l-content .left_column,
-  .activity_actions_index .l-content .right_column,
-  .dashboard_index .l-content,
-  .dashboard_index .l-content .left_column,
-  .dashboard_index .l-content .right_column,
-  .dashboard_messages_inbox .l-content,
-  .dashboard_messages_inbox .l-content .left_column,
-  .dashboard_messages_inbox .l-content .right_column,
-  .dashboard_posts_likes .l-content,
-  .dashboard_posts_likes .l-content .left_column,
-  .dashboard_posts_likes .l-content .right_column,
-  .dashboard_useraction_followers .l-content,
-  .dashboard_useraction_followers .l-content .left_column,
-  .dashboard_useraction_followers .l-content .right_column,
-  .tumblelog_mask_item,
+  .pages_logo_index,
+  .post_avatar,
+  .post_avatar_link,
   .tagged_actions_display,
   .tagged_actions_display .l-content,
   .tagged_actions_display .l-content .left_column,
   .tagged_actions_display .l-content .right_column,
+  .tumblelog_mask_item,
   .tumblr_settings,
   .tumblr_settings .l-container .l-content,
   .tumblr_settings .l-container .l-content .right_column,
-  .pages_logo_index,
-  .post_avatar,
-  .post_avatar_link,
   .search_results {
     background-color: #003d67 !important;
   }
@@ -100,10 +100,6 @@
     border-right: 5px solid #0C456D !important;
   }
 
-  .identity-refresh .right_column:after {
-    display: none !important;
-  }
-
   .notifications_page .section.divider {
     background: none !important;
   }
@@ -116,23 +112,13 @@
     color: #9DB4C4 !important;
   }
 
+  .identity-refresh .right_column:after,
+  .remnant-unit-container,
+  .sponsored_post,
+  .standalone-ad-container,
+  .takeover-container,
+  .video-ad-container,
   .yamplus-unit-container {
-    display: none !important;
-  }
-
-  .takeover-container {
-    display: none !important;
-  }
-
-  .remnant-unit-container {
-    display: none !important;
-  }
-
-  .video-ad-container {
-    display: none !important;
-  }
-
-  .sponsored_post {
     display: none !important;
   }
 

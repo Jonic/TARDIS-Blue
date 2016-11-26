@@ -116,6 +116,11 @@
     background: #fff    !important;
     color:      #003d67 !important;
   }
+  
+  .selected .tab_notice {
+    background: #7A9EB5 !important;
+    color:      #003d67 !important;
+  }
 
   .identity-refresh .right_column:after,
   .remnant-unit-container,
